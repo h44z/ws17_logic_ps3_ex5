@@ -18,7 +18,7 @@
 	l-3.481,5.472l6.964,7.958l-0.995,13.928l4.477,4.478l6.964,8.456l1.492,6.466l0.498,9.451l-4.975,13.43l8.954,1.492l8.456-1.989
 	l19.896,9.948h7.958l9.451,5.472l10.943,0.497l6.466,9.948l-3.979,7.462v4.477l0.497,9.948l5.969,0.995l5.969,9.45l10.943-0.994
 	l4.975,3.979h5.472l10.942,9.451l0.498,4.477l7.958,0.498l7.024,5.059"/>
-<path id="TIROL" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccssscccccccccccccccccccccccccccccccccccccccccccccccc" fill="#00FF00" stroke="#284566" stroke-width="2" d="
+<path id="TIROL" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccssscccccccccccccccccccccccccccccccccccccccccccccccc" fill="#ACACAC" stroke="#284566" stroke-width="2" d="
 	M717.594,556.544l-8.969,6.969l-10.438,5.969l6.469,15.906l1,17.406l-10.969,2.5l-28.344-3.469l-3.469,2.469l-6.469-2.469
 	l-37.313,9.938l-2,7.969l-16.406-3l-26.375,2.5l-8.938-3.5l-11.438,9.969v13.406l-6.969,7.969l-16.406,2l-14.938-3.5l-12.938,15.938
 	l5.969,1.469l-1.469,7.469l-14.438-0.5l-11.438,10.469l-1.5,5.969l-7.469,5.969l-8.438-1.5l5.469-8.969l-4.969-3.969l-6.969,1.5
@@ -46,7 +46,7 @@
 	l-3.969-10.938l-9.438-1.5l-3.5-8.469l-5.969-7.438l2.5-9.469l4.969-13.438l-15.438-4.469l-15.906-3.469l-2.969-11.938l-4-4.5
 	l-11.938-8.438h-9.438l-6.469-1.5l-7.469-4.469l-8.938,7.938l-8.969-1.969l-11.438,2.969l-2.969,8.469l-3.5,5.969L733,800.794
 	l-13.938,3.469H718.719z M185.875,904.044h-0.5l0.469,1.188L185.875,904.044z"/>
-<path id="SALZBURG" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" fill="#FF0000" stroke="#284566" stroke-width="2" d="
+<path id="SALZBURG" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" fill="#ACACAC" stroke="#284566" stroke-width="2" d="
 	M819.165,788.418l4.975-3.979l1.492-7.461l12.435,5.969l6.964,4.477l7.959,4.975l11.938,1.492l14.426,1.989h9.948l10.943,5.97
 	l10.942,5.969l10.943,6.466l11.938-2.486h8.953l10.445,0.994l11.938-4.477l7.461-1.492l1.989-6.964l4.975-9.948l10.943-2.984
 	l7.958,2.984l8.954,4.975l10.943,0.994l10.942,0.498h7.959l10.445,3.481l4.975,1.99l11.938-0.498h8.954l5.471,3.482l5.97,5.969
@@ -69,7 +69,7 @@
 	l0.497,14.426l0.995,11.44l7.461,2.984l3.979,4.477l0.498,11.938v10.942l0.105-0.729l6.857-1.509l12.436-2.735l5.959,4.466
 	l0.508,0.508l13.928-3.481l11.44-7.959l3.481-5.969l2.984-8.456l11.441-2.984l8.953,1.989l8.953-7.958l7.462,4.477l6.466,1.492
 	h9.451l11.938,8.456L819.165,788.418"/>
-<path id="KAERNTEN" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccc" fill="#0000FF" stroke="#284566" stroke-width="2" d="
+<path id="KAERNTEN" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccc" fill="#ACACAC" stroke="#284566" stroke-width="2" d="
 	M819.841,788.187l4.975-3.979l1.492-7.461l12.436,5.969l6.964,4.477l7.958,4.974l11.938,1.493l14.425,1.989h9.948l10.943,5.969
 	l10.942,5.969l10.943,6.467l11.938-2.487h8.953l10.445,0.995l11.938-4.477l7.461-1.492l1.99-6.964l4.974-9.948l10.943-2.984
 	l7.959,2.984l8.953,4.974l10.943,0.995l10.942,0.497h7.959l10.446,3.482l4.974,1.989l11.938-0.497h8.953l5.472,3.481l5.969,5.97
@@ -88,7 +88,7 @@
 	l1.377-5.138c0,0,3.979-8.954,6.467-10.446s3.481-12.435,3.481-12.435l0.498-12.934l8.456,0.498l10.445,0.497l9.451-5.472
 	l10.942-6.466l7.959,6.964l8.456,0.994l-1.989-11.44l-7.462-7.461l-7.958-10.943l-8.954-7.461l-7.461-8.456l-0.995-10.943
 	l-3.979-10.943l-9.451-1.492l-3.482-8.456l-5.969-7.461l2.487-9.451l4.974-13.43l-15.419-4.477l-15.918-3.482L819.841,788.187"/>
-<path id="STEIERMARK" sodipodi:nodetypes="ccccccccsccccccccccccccccsccscccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccscccccccccccccc" fill="#00FF00" stroke="#284566" stroke-width="2" d="
+<path id="STEIERMARK" sodipodi:nodetypes="ccccccccsccccccccccccccccsccscccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccscccccccccccccc" fill="#ACACAC" stroke="#284566" stroke-width="2" d="
 	M1323.281,513.201l2.345,4.062l5.472,4.477l5.969-4.974l13.928,0.497l5.472,0.995l3.979,1.989l7.958,6.964
 	c0,0,3.482,0.498,6.467,0.995s6.466-2.487,6.466-2.487l4.975-11.44l5.969-1.492l8.953-0.995l5.97,3.482l4.974-1.492l8.456-4.478
 	l9.451-3.979l10.445-2.487l3.979-11.44l2.984-1.99l4.975-5.471l6.466,1.492l7.959-1.99l4.477-4.477l4.975-0.995c0,0,4.477,0,7.958,0
@@ -118,7 +118,7 @@
 	l2.985-6.964l7.958-0.995l6.467-0.497l3.481-5.472l6.964-1.492h3.979l5.969,6.964l5.472,3.481l15.42,1.99c0,0,4.477,0,6.467,0
 	c1.989,0,6.964-1.492,6.964-1.492l1.989-4.975l6.466-9.948l3.482-2.984h5.472l7.958-0.497l3.482-4.975l-0.497-4.974l12.435-4.975
 	l6.467-2.487l13.431-4.974l8.953-3.979l7.958-9.451l5.472-4.974"/>
-<path id="OBEROESTERREICH" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" fill="#0000FF" stroke="#284566" stroke-width="2" d="
+<path id="OBEROESTERREICH" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" fill="#ACACAC" stroke="#284566" stroke-width="2" d="
 	M862.699,456.578v-6.964l-2.396-5.951l0.406-1.013l-6.467-5.969l-12.436-7.461l-4.974-10.943l-3.482-12.933l4.975-2.487l6.964,0.994
 	l-0.497-5.969l3.481-4.974l7.959-3.979l0.994-6.467v-6.466l5.97-3.482h8.953l7.959-1.492l6.466-1.492l2.487-4.477l4.975-8.456
 	l1.989-4.975l6.467-0.994h7.461l3.979-2.487l2.984-2.984l5.472-0.497l4.974-4.478l8.456-3.979l19.399-0.498l5.969-1.989
@@ -147,7 +147,7 @@
 	l-8.456,0.498h-12.436l-4.975-9.451l-5.969-18.901l-3.979-15.42l3.482-11.938l12.435,0.498l6.467,0.497v-6.467l-3.979-5.969
 	l-9.948-1.989l-9.948,1.492l-6.467,5.969l-16.414,0.497l-16.912-2.486l-10.943-9.948l-4.974-4.975l-9.451,0.497l-7.959,2.487
 	l-5.472,0.497l-1.989,4.975l-2.984,8.456l-14.454,3.873"/>
-<path id="BURGENLAND" sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" fill="#0000FF" stroke="#284566" stroke-width="2" d="
+<path id="BURGENLAND" sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" fill="#ACACAC" stroke="#284566" stroke-width="2" d="
 	M1899.581,328.97l-6.716,6.715l-6.466,6.467l-2.487-2.984l-10.943,3.979l2.984,8.456l-0.497,7.958l-2.984,3.979l-5.472-3.979
 	l-9.948-6.964h-8.456l-7.959,6.964l-5.969,8.456l-10.445,5.97l-9.451,3.979l-7.461,3.979l-0.498,10.943l-1.989,5.969l-7.461,3.979
 	l-6.467,2.984v8.456l-4.974,4.477l-6.964,5.472l-4.975-4.974l-9.451-5.97l-5.969,1.99l-12.436,2.487l-6.964,5.969l-3.481,4.975
@@ -168,7 +168,7 @@
 	h4.477l3.979,2.487l2.984,7.959l6.467,3.481l18.404,4.975l5.969-17.41l5.97,9.451l35.316-10.446l14.425-0.497l-5.97-9.948
 	l0.498-14.922l-5.472-5.97l-0.497-4.477l2.486-5.472l-2.984-5.472l-12.436-8.953v-2.984l11.441-2.487l8.455-9.948l-0.994-15.42
 	l2.487-8.456l-1.99-5.472l11.44-16.415l-3.979-4.974l-14.426-0.497l-2.486-11.441l-0.498-11.44l-1.492-7.461l-2.707-3.332"/>
-<path id="NIEDEROESTERREICH" fill="#FF0000" stroke="#284566" stroke-width="2" d="M1364.541,39.125l-1,8.469l-2.969,7.969l5.469,22.875
+<path id="NIEDEROESTERREICH" fill="#ACACAC" stroke="#284566" stroke-width="2" d="M1364.541,39.125l-1,8.469l-2.969,7.969l5.469,22.875
 	l-1.5,7.469l-1.969,7.938l0.969,6.469l-0.469,5.969l-3,9.469l2,6.469l3.469,6.469l-2.969,6.469h-3l-5.469-3l-12.938-2h-14.406
 	l-2.5,18.406L1308.854,165l-3.5,13.406l1,17.406l-3.469,11.938l0.469-0.469v5.469h8.469l8.469,1.469l9.938,4l8.969,2.969l10.938,1
 	l9.438,5.969l-1.5,5.469l-4.969,0.5l-4.469,6.469l-1.5,4.469l1.5,4.969l11.438,8.969l4.969,2l0.5,12.438h5.969v3.469l0.5,9.438
@@ -283,7 +283,7 @@
 	c0.034-0.021,0.092-0.049,0.125-0.063c0.033-0.011,0.093-0.027,0.125-0.031c0.024-0.001,0.07-0.003,0.094,0
 	c0.032,0.006,0.094,0.02,0.125,0.031c0.088,0.038,0.194,0.111,0.281,0.188c0.701,0.639,1.471,2.323,2.906,1.906
 	C1720.367,262.415,1722.796,261.889,1724.885,261.687z"/>
-<path id="WIEN" fill="#00FF00" stroke="#284566" stroke-width="2" d="M1725.108,261.843c-2.131,0.188-4.693,0.673-5.899,2.6
+<path id="WIEN" fill="#ACACAC" stroke="#284566" stroke-width="2" d="M1725.108,261.843c-2.131,0.188-4.693,0.673-5.899,2.6
 	c-2.089,0.606-2.729-3.203-3.871-1.829c-0.582,1.295-3.74,1.089-2.945,3.392c1.065,1.383,0.502,3.109,1.116,4.354
 	c1.477,2.219-2.86,0.133-2.229,2.873c-0.943,1.318,2.369,4.215-0.011,4.445c-2.437-0.447-2.929,1.539-2.224,2.941
 	c-1.547,0.978-3.196-1.363-5.008-0.96c0.804-2.369-4.79-3.773-3.029-1.716c1.521,1.888-2.361,2.145-3.48,3.19
