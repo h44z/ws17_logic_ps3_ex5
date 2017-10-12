@@ -3,6 +3,7 @@
 <head>
 </head>
 <body>
+<h1>THE ULTIMATE AUSTRIAN MAP COLOUR EQUATION</h1>
 <h3>CNF INPUT:</h3>
 <form action="#" onsubmit="event.preventDefault();">
   <textarea id="expinput" name="expinput" rows="20" cols="110">
@@ -15,31 +16,32 @@
 (n1 | n2 | n3) &amp; (~n1 | ~n2) &amp; (~n2 | ~n3) &amp; (~n1 | ~n3) &amp;
 (w1 | w2 | w3) &amp; (~w1 | ~w2) &amp; (~w2 | ~w3) &amp; (~w1 | ~w3) &amp;
 (b1 | b2 | b3) &amp; (~b1 | ~b2) &amp; (~b2 | ~b3) &amp; (~b1 | ~b3) &amp;
-(~v1 | t1) &amp; (~v2 | t2) &amp; (~v3 | t3) &amp;
-(~t1 | v1 | s1 | k1) &amp; (t1 | ~v1 | s1 | k1) &amp; (t1 | v1 | ~s1 | k1) &amp; (t1 | v1 | s1 | ~k1) &amp;
-(~t2 | v2 | s2 | k2) &amp; (t2 | ~v2 | s2 | k2) &amp; (t2 | v2 | ~s2 | k2) &amp; (t2 | v2 | s2 | ~k2) &amp;
-(~t3 | v3 | s3 | k3) &amp; (t3 | ~v3 | s3 | k3) &amp; (t3 | v3 | ~s3 | k3) &amp; (t3 | v3 | s3 | ~k3) &amp;
-(~s1 | t1 | k1 | m1 | o1) &amp; (s1 | ~t1 | k1 | m1 | o1) &amp; (s1 | t1 | ~k1 | m1 | o1) &amp; (s1 | t1 | k1 | ~m1 | o1) &amp; (s1 | t1 | k1 | m1 | ~o1) &amp;
-(~s2 | t2 | k2 | m2 | o2) &amp; (s2 | ~t2 | k2 | m2 | o2) &amp; (s2 | t2 | ~k2 | m2 | o2) &amp; (s2 | t2 | k2 | ~m2 | o2) &amp; (s2 | t2 | k2 | m2 | ~o2) &amp;
-(~s3 | t3 | k3 | m3 | o3) &amp; (s3 | ~t3 | k3 | m3 | o3) &amp; (s3 | t3 | ~k3 | m3 | o3) &amp; (s3 | t3 | k3 | ~m3 | o3) &amp; (s3 | t3 | k3 | m3 | ~o3) &amp;
-(~k1 | t1 | s1 | m1) &amp; (k1 | ~t1 | s1 | m1) &amp; (k1 | t1 | ~s1 | m1) &amp; (k1 | t1 | s1 | ~m1) &amp;
-(~k2 | t2 | s2 | m2) &amp; (k2 | ~t2 | s2 | m2) &amp; (k2 | t2 | ~s2 | m2) &amp; (k2 | t2 | s2 | ~m2) &amp;
-(~k3 | t3 | s3 | m3) &amp; (k3 | ~t3 | s3 | m3) &amp; (k3 | t3 | ~s3 | m3) &amp; (k3 | t3 | s3 | ~m3) &amp;
-(~o1 | s1 | m1 | n1) &amp; (o1 | ~s1 | m1 | n1) &amp; (o1 | s1 | ~m1 | n1) &amp; (o1 | s1 | m1 | ~n1) &amp;
-(~o2 | s2 | m2 | n2) &amp; (o2 | ~s2 | m2 | n2) &amp; (o2 | s2 | ~m2 | n2) &amp; (o2 | s2 | m2 | ~n2) &amp;
-(~o3 | s3 | m3 | n3) &amp; (o3 | ~s3 | m3 | n3) &amp; (o3 | s3 | ~m3 | n3) &amp; (o3 | s3 | m3 | ~n3) &amp;
-(~m1 | k1 | s1 | o1 | n1 | b1) &amp; (m1 | ~k1 | s1 | o1 | n1 | b1) &amp; (m1 | k1 | ~s1 | o1 | n1 | b1) &amp; (m1 | k1 | s1 | ~o1 | n1 | b1) &amp; (m1 | k1 | s1 | o1 | ~n1 | b1) &amp; (m1 | k1 | s1 | o1 | n1 | ~b1) &amp;
-(~m2 | k2 | s2 | o2 | n2 | b2) &amp; (m2 | ~k2 | s2 | o2 | n2 | b2) &amp; (m2 | k2 | ~s2 | o2 | n2 | b2) &amp; (m2 | k2 | s2 | ~o2 | n2 | b2) &amp; (m2 | k2 | s2 | o2 | ~n2 | b2) &amp; (m2 | k2 | s2 | o2 | n2 | ~b2) &amp;
-(~m3 | k3 | s3 | o3 | n3 | b3) &amp; (m3 | ~k3 | s3 | o3 | n3 | b3) &amp; (m3 | k3 | ~s3 | o3 | n3 | b3) &amp; (m3 | k3 | s3 | ~o3 | n3 | b3) &amp; (m3 | k3 | s3 | o3 | ~n3 | b3) &amp; (m3 | k3 | s3 | o3 | n3 | ~b3) &amp;
-(~n1 | o1 | m1 | b1 | w1) &amp; (n1 | ~o1 | m1 | b1 | w1) &amp; (n1 | o1 | ~m1 | b1 | w1) &amp; (n1 | o1 | m1 | ~b1 | w1) &amp; (n1 | o1 | m1 | b1 | ~w1) &amp;
-(~n2 | o2 | m2 | b2 | w2) &amp; (n2 | ~o2 | m2 | b2 | w2) &amp; (n2 | o2 | ~m2 | b2 | w2) &amp; (n2 | o2 | m2 | ~b2 | w2) &amp; (n2 | o2 | m2 | b2 | ~w2) &amp;
-(~n3 | o3 | m3 | b3 | w3) &amp; (n3 | ~o3 | m3 | b3 | w3) &amp; (n3 | o3 | ~m3 | b3 | w3) &amp; (n3 | o3 | m3 | ~b3 | w3) &amp; (n3 | o3 | m3 | b3 | ~w3) &amp;
-(~b1 | m1 | n1) | (b1 | ~m1 | n1) | (b1 | m1 | ~n1) &amp;
-(~b2 | m2 | n2) | (b2 | ~m2 | n2) | (b2 | m2 | ~n2) &amp; 
-(~b3 | m3 | n3) | (b3 | ~m3 | n3) | (b3 | m3 | ~n3) &amp;
-(~w1 | n1) &amp; (w1 | ~n1) &amp;
-(~w2 | n2) &amp; (w2 | ~n2) &amp;
-(~w3 | n3) &amp; (w3 | ~n3)
+(~v1 | ~t1) &amp; (~v1 | t2 | t3) &amp; (~v2 | ~t2) &amp; (~v2 | t1 | t3) &amp; (~v3 | ~t3) &amp; (~v3 | t1 | t2) &amp;	
+(~t1 | ~v1) &amp; (~t1 | v2 | v3) &amp; (~t2 | ~v2) &amp; (~t2 | v1 | v3) &amp; (~t3 | ~v3) &amp; (~t3 | v1 | v2) &amp;	
+(~t1 | ~s1) &amp; (~t1 | s2 | s3) &amp; (~t2 | ~s2) &amp; (~t2 | s1 | s3) &amp; (~t3 | ~s3) &amp; (~t3 | s1 | s2) &amp;	
+(~t1 | ~k1) &amp; (~t1 | k2 | k3) &amp; (~t2 | ~k2) &amp; (~t2 | k1 | k3) &amp; (~t3 | ~k3) &amp; (~t3 | k1 | k2) &amp;
+(~s1 | ~k1) &amp; (~s1 | k2 | k3) &amp; (~s2 | ~k2) &amp; (~s2 | k1 | k3) &amp; (~s3 | ~k3) &amp; (~s3 | k1 | k2) &amp;
+(~s1 | ~t1) &amp; (~s1 | t2 | t3) &amp; (~s2 | ~t2) &amp; (~s2 | t1 | t3) &amp; (~s3 | ~t3) &amp; (~s3 | t1 | t2) &amp;
+(~s1 | ~o1) &amp; (~s1 | o2 | o3) &amp; (~s2 | ~o2) &amp; (~s2 | o1 | o3) &amp; (~s3 | ~o3) &amp; (~s3 | o1 | o2) &amp;
+(~s1 | ~m1) &amp; (~s1 | m2 | m3) &amp; (~s2 | ~m2) &amp; (~s2 | m1 | m3) &amp; (~s3 | ~m3) &amp; (~s3 | m1 | m2) &amp;
+(~k1 | ~m1) &amp; (~k1 | m2 | m3) &amp; (~k2 | ~m2) &amp; (~k2 | m1 | m3) &amp; (~k3 | ~m3) &amp; (~k3 | m1 | m2) &amp;
+(~k1 | ~s1) &amp; (~k1 | s2 | s3) &amp; (~k2 | ~s2) &amp; (~k2 | s1 | s3) &amp; (~k3 | ~s3) &amp; (~k3 | s1 | s2) &amp;
+(~k1 | ~t1) &amp; (~k1 | t2 | t3) &amp; (~k2 | ~t2) &amp; (~k2 | t1 | t3) &amp; (~k3 | ~t3) &amp; (~k3 | t1 | t2) &amp;
+(~o1 | ~s1) &amp; (~o1 | s2 | s3) &amp; (~o2 | ~s2) &amp; (~o2 | s1 | s3) &amp; (~o3 | ~s3) &amp; (~o3 | s1 | s2) &amp;
+(~o1 | ~m1) &amp; (~o1 | m2 | m3) &amp; (~o2 | ~m2) &amp; (~o2 | m1 | m3) &amp; (~o3 | ~m3) &amp; (~o3 | m1 | m2) &amp;
+(~o1 | ~n1) &amp; (~o1 | n2 | n3) &amp; (~o2 | ~n2) &amp; (~o2 | n1 | n3) &amp; (~o3 | ~n3) &amp; (~o3 | n1 | n2) &amp;
+(~m1 | ~n1) &amp; (~m1 | n2 | n3) &amp; (~m2 | ~n2) &amp; (~m2 | n1 | n3) &amp; (~m3 | ~n3) &amp; (~m3 | n1 | n2) &amp;
+(~m1 | ~b1) &amp; (~m1 | b2 | b3) &amp; (~m2 | ~b2) &amp; (~m2 | b1 | b3) &amp; (~m3 | ~b3) &amp; (~m3 | b1 | b2) &amp;
+(~m1 | ~k1) &amp; (~m1 | k2 | k3) &amp; (~m2 | ~k2) &amp; (~m2 | k1 | k3) &amp; (~m3 | ~k3) &amp; (~m3 | k1 | k2) &amp;
+(~m1 | ~s1) &amp; (~m1 | s2 | s3) &amp; (~m2 | ~s2) &amp; (~m2 | s1 | s3) &amp; (~m3 | ~s3) &amp; (~m3 | s1 | s2) &amp;
+(~m1 | ~o1) &amp; (~m1 | o2 | o3) &amp; (~m2 | ~o2) &amp; (~m2 | o1 | o3) &amp; (~m3 | ~o3) &amp; (~m3 | o1 | o2) &amp;
+(~n1 | ~o1) &amp; (~n1 | o2 | o3) &amp; (~n2 | ~o2) &amp; (~n2 | o1 | o3) &amp; (~n3 | ~o3) &amp; (~n3 | o1 | o2) &amp;
+(~n1 | ~m1) &amp; (~n1 | m2 | m3) &amp; (~n2 | ~m2) &amp; (~n2 | m1 | m3) &amp; (~n3 | ~m3) &amp; (~n3 | m1 | m2) &amp;
+(~n1 | ~b1) &amp; (~n1 | b2 | b3) &amp; (~n2 | ~b2) &amp; (~n2 | b1 | b3) &amp; (~n3 | ~b3) &amp; (~n3 | b1 | b2) &amp;
+(~n1 | ~w1) &amp; (~n1 | w2 | w3) &amp; (~n2 | ~w2) &amp; (~n2 | w1 | w3) &amp; (~n3 | ~w3) &amp; (~n3 | w1 | w2) &amp;
+(~b1 | ~n1) &amp; (~b1 | n2 | n3) &amp; (~b2 | ~n2) &amp; (~b2 | n1 | n3) &amp; (~b3 | ~n3) &amp; (~b3 | n1 | n2) &amp;
+(~b1 | ~m1) &amp; (~b1 | m2 | m3) &amp; (~b2 | ~m2) &amp; (~b2 | m1 | m3) &amp; (~b3 | ~m3) &amp; (~b3 | m1 | m2) &amp;
+(~w1 | ~n1) &amp; (~w1 | n2 | n3) &amp; (~w2 | ~n2) &amp; (~w2 | n1 | n3) &amp; (~w3 | ~n3) &amp; (~w3 | n1 | n2)
   </textarea>
   <br>
   <input id="gobtn" type="submit" value="check">
@@ -55,10 +57,135 @@
 <h3>MAP:</h3>
 <object class="svgImage" type="image/svg+xml" data="Austria_States_blank_map.svg" width="600"></object>
 
-<div id="output"></div>
+<h3>DESCRIPTION:</h3>
+<h5>This is the soltion for the proseminar exercise #5 in logic.</h5>
+
+<p>Exercise: Construct a CNF formula ϕ that is satisfiable if and only if the map of Austria is 3-colorable. Encode the formula of part (a) into DIMACS format. Use a SAT solver to determine whether Austria is 3-colorable.</p>
+
+<h4>Constraints:</h4>
+
+<ul>
+	<li>Every state has at least one (of  3) colour</li>
+	<li>Every state has at most one (of  3) colour</li>
+	<li>Each neighbour state has a different colour</li>
+</ul>
+
+<h4>Variables (those should be used in the upper cnf input!):</h4>
+
+<ul>
+<li>v1 = Vorarlberg Colour 1			 </li>
+<li>v3 = Vorarlberg Colour 2             </li>
+<li>v3 = Vorarlberg Colour 3             </li>
+<li>t1 = Tirol Colour 1                  </li>
+<li>t2 = Tirol Colour 2                  </li>
+<li>t3 = Tirol Colour 3                  </li>
+<li>s1 = Salzburg Colour 1               </li>
+<li>s2 = Salzburg Colour 2               </li>
+<li>s3 = Salzburg Colour 3               </li>
+<li>k1 = Kärnten Colour 1                </li>
+<li>k2 = Kärnten Colour 2                </li>
+<li>k3 = Kärnten Colour 3                </li>
+<li>o1 = Oberösterreich Colour 1         </li>
+<li>o2 = Oberösterreich Colour 2         </li>
+<li>o3 = Oberösterreich Colour 3         </li>
+<li>m1 = Steiermark Colour 1             </li>
+<li>m2 = Steiermark Colour 2             </li>
+<li>m3 = Steiermark Colour 3             </li>
+<li>n1 = Niederösterreich Colour 1       </li>
+<li>n2 = Niederösterreich Colour 2       </li>
+<li>n3 = Niederösterreich Colour 3       </li>
+<li>w1 = Wien Colour 1                   </li>
+<li>w2 = Wien Colour 2                   </li>
+<li>w3 = Wien Colour 3                   </li>
+<li>b1 = Burgenland Colour 1             </li>
+<li>b2 = Burgenland Colour 2             </li>
+<li>b3 = Burgenland Colour 3             </li>
+</ul>
+
+
+<h4>Propositional logic expressions:</h4>
+<h5>Each state has only one colour:</h5>
+<pre>
+(v1 | v2 | v3) &amp; (~v1 | ~v2) &amp; (~v2 | ~v3) &amp; (~v1 | ~v3) &amp;
+(t1 | t2 | t3) &amp; (~t1 | ~t2) &amp; (~t2 | ~t3) &amp; (~t1 | ~t3) &amp;
+(s1 | s2 | s3) &amp; (~s1 | ~s2) &amp; (~s2 | ~s3) &amp; (~s1 | ~s3) &amp;
+(k1 | k2 | k3) &amp; (~k1 | ~k2) &amp; (~k2 | ~k3) &amp; (~k1 | ~k3) &amp;
+(o1 | o2 | o3) &amp; (~o1 | ~o2) &amp; (~o2 | ~o3) &amp; (~o1 | ~o3) &amp;
+(m1 | m2 | m3) &amp; (~m1 | ~m2) &amp; (~m2 | ~m3) &amp; (~m1 | ~m3) &amp;
+(n1 | n2 | n3) &amp; (~n1 | ~n2) &amp; (~n2 | ~n3) &amp; (~n1 | ~n3) &amp;
+(w1 | w2 | w3) &amp; (~w1 | ~w2) &amp; (~w2 | ~w3) &amp; (~w1 | ~w3) &amp;
+(b1 | b2 | b3) &amp; (~b1 | ~b2) &amp; (~b2 | ~b3) &amp; (~b1 | ~b3)
+</pre>
+
+<h6>Quick check for Vorarlberg:</h6>
+<pre>
+v1, v2, v3  |   ((v1 | v2 | v3) & (~v1 | ~v2) & (~v2 | ~v3) & (~v1 | ~v3))
+t t t 				f
+t t f 				f
+t f t 				f
+t f f 				t
+f t t				f
+f t f 				t
+f f t 				t
+f f f 				f 
+</pre>
+<p>So this seems to be correct!</p>
+
+<h5>Each neighbour state has a different colour:</h5>
+
+
+<p>Example Vorarlberg:</p>
+<pre>
+(t1 -> (~v1 &amp; ( v2 | v3))) &amp; (t2 -> (~v2 &amp; ( v1 | v3))) &amp; (t3 -> (~v3 &amp; ( v1 | v2)))
+</pre>
+<p>Converted to CNF:</p>
+<pre>
+(~v1 | ~t1) &amp; (~v1 | t2 | t3) &amp; (~v2 | ~t2) &amp; (~v2 | t1 | t3) &amp; (~v3 | ~t3) &amp; (~v3 | t1 | t2)
+</pre>
+<p>This step has to be done for every neighbour of each state.</p>
+
+
+<h5>The complete formula looks like this:</h5>
+
+<pre>
+(v1 | v2 | v3) &amp; (~v1 | ~v2) &amp; (~v2 | ~v3) &amp; (~v1 | ~v3) &amp;
+(t1 | t2 | t3) &amp; (~t1 | ~t2) &amp; (~t2 | ~t3) &amp; (~t1 | ~t3) &amp;
+(s1 | s2 | s3) &amp; (~s1 | ~s2) &amp; (~s2 | ~s3) &amp; (~s1 | ~s3) &amp;
+(k1 | k2 | k3) &amp; (~k1 | ~k2) &amp; (~k2 | ~k3) &amp; (~k1 | ~k3) &amp;
+(o1 | o2 | o3) &amp; (~o1 | ~o2) &amp; (~o2 | ~o3) &amp; (~o1 | ~o3) &amp;
+(m1 | m2 | m3) &amp; (~m1 | ~m2) &amp; (~m2 | ~m3) &amp; (~m1 | ~m3) &amp;
+(n1 | n2 | n3) &amp; (~n1 | ~n2) &amp; (~n2 | ~n3) &amp; (~n1 | ~n3) &amp;
+(w1 | w2 | w3) &amp; (~w1 | ~w2) &amp; (~w2 | ~w3) &amp; (~w1 | ~w3) &amp;
+(b1 | b2 | b3) &amp; (~b1 | ~b2) &amp; (~b2 | ~b3) &amp; (~b1 | ~b3) &amp;
+(~v1 | ~t1) &amp; (~v1 | t2 | t3) &amp; (~v2 | ~t2) &amp; (~v2 | t1 | t3) &amp; (~v3 | ~t3) &amp; (~v3 | t1 | t2) &amp;	
+(~t1 | ~v1) &amp; (~t1 | v2 | v3) &amp; (~t2 | ~v2) &amp; (~t2 | v1 | v3) &amp; (~t3 | ~v3) &amp; (~t3 | v1 | v2) &amp;	
+(~t1 | ~s1) &amp; (~t1 | s2 | s3) &amp; (~t2 | ~s2) &amp; (~t2 | s1 | s3) &amp; (~t3 | ~s3) &amp; (~t3 | s1 | s2) &amp;	
+(~t1 | ~k1) &amp; (~t1 | k2 | k3) &amp; (~t2 | ~k2) &amp; (~t2 | k1 | k3) &amp; (~t3 | ~k3) &amp; (~t3 | k1 | k2) &amp;
+(~s1 | ~k1) &amp; (~s1 | k2 | k3) &amp; (~s2 | ~k2) &amp; (~s2 | k1 | k3) &amp; (~s3 | ~k3) &amp; (~s3 | k1 | k2) &amp;
+(~s1 | ~t1) &amp; (~s1 | t2 | t3) &amp; (~s2 | ~t2) &amp; (~s2 | t1 | t3) &amp; (~s3 | ~t3) &amp; (~s3 | t1 | t2) &amp;
+(~s1 | ~o1) &amp; (~s1 | o2 | o3) &amp; (~s2 | ~o2) &amp; (~s2 | o1 | o3) &amp; (~s3 | ~o3) &amp; (~s3 | o1 | o2) &amp;
+(~s1 | ~m1) &amp; (~s1 | m2 | m3) &amp; (~s2 | ~m2) &amp; (~s2 | m1 | m3) &amp; (~s3 | ~m3) &amp; (~s3 | m1 | m2) &amp;
+(~k1 | ~m1) &amp; (~k1 | m2 | m3) &amp; (~k2 | ~m2) &amp; (~k2 | m1 | m3) &amp; (~k3 | ~m3) &amp; (~k3 | m1 | m2) &amp;
+(~k1 | ~s1) &amp; (~k1 | s2 | s3) &amp; (~k2 | ~s2) &amp; (~k2 | s1 | s3) &amp; (~k3 | ~s3) &amp; (~k3 | s1 | s2) &amp;
+(~k1 | ~t1) &amp; (~k1 | t2 | t3) &amp; (~k2 | ~t2) &amp; (~k2 | t1 | t3) &amp; (~k3 | ~t3) &amp; (~k3 | t1 | t2) &amp;
+(~o1 | ~s1) &amp; (~o1 | s2 | s3) &amp; (~o2 | ~s2) &amp; (~o2 | s1 | s3) &amp; (~o3 | ~s3) &amp; (~o3 | s1 | s2) &amp;
+(~o1 | ~m1) &amp; (~o1 | m2 | m3) &amp; (~o2 | ~m2) &amp; (~o2 | m1 | m3) &amp; (~o3 | ~m3) &amp; (~o3 | m1 | m2) &amp;
+(~o1 | ~n1) &amp; (~o1 | n2 | n3) &amp; (~o2 | ~n2) &amp; (~o2 | n1 | n3) &amp; (~o3 | ~n3) &amp; (~o3 | n1 | n2) &amp;
+(~m1 | ~n1) &amp; (~m1 | n2 | n3) &amp; (~m2 | ~n2) &amp; (~m2 | n1 | n3) &amp; (~m3 | ~n3) &amp; (~m3 | n1 | n2) &amp;
+(~m1 | ~b1) &amp; (~m1 | b2 | b3) &amp; (~m2 | ~b2) &amp; (~m2 | b1 | b3) &amp; (~m3 | ~b3) &amp; (~m3 | b1 | b2) &amp;
+(~m1 | ~k1) &amp; (~m1 | k2 | k3) &amp; (~m2 | ~k2) &amp; (~m2 | k1 | k3) &amp; (~m3 | ~k3) &amp; (~m3 | k1 | k2) &amp;
+(~m1 | ~s1) &amp; (~m1 | s2 | s3) &amp; (~m2 | ~s2) &amp; (~m2 | s1 | s3) &amp; (~m3 | ~s3) &amp; (~m3 | s1 | s2) &amp;
+(~m1 | ~o1) &amp; (~m1 | o2 | o3) &amp; (~m2 | ~o2) &amp; (~m2 | o1 | o3) &amp; (~m3 | ~o3) &amp; (~m3 | o1 | o2) &amp;
+(~n1 | ~o1) &amp; (~n1 | o2 | o3) &amp; (~n2 | ~o2) &amp; (~n2 | o1 | o3) &amp; (~n3 | ~o3) &amp; (~n3 | o1 | o2) &amp;
+(~n1 | ~m1) &amp; (~n1 | m2 | m3) &amp; (~n2 | ~m2) &amp; (~n2 | m1 | m3) &amp; (~n3 | ~m3) &amp; (~n3 | m1 | m2) &amp;
+(~n1 | ~b1) &amp; (~n1 | b2 | b3) &amp; (~n2 | ~b2) &amp; (~n2 | b1 | b3) &amp; (~n3 | ~b3) &amp; (~n3 | b1 | b2) &amp;
+(~n1 | ~w1) &amp; (~n1 | w2 | w3) &amp; (~n2 | ~w2) &amp; (~n2 | w1 | w3) &amp; (~n3 | ~w3) &amp; (~n3 | w1 | w2) &amp;
+(~b1 | ~n1) &amp; (~b1 | n2 | n3) &amp; (~b2 | ~n2) &amp; (~b2 | n1 | n3) &amp; (~b3 | ~n3) &amp; (~b3 | n1 | n2) &amp;
+(~b1 | ~m1) &amp; (~b1 | m2 | m3) &amp; (~b2 | ~m2) &amp; (~b2 | m1 | m3) &amp; (~b3 | ~m3) &amp; (~b3 | m1 | m2) &amp;
+(~w1 | ~n1) &amp; (~w1 | n2 | n3) &amp; (~w2 | ~n2) &amp; (~w2 | n1 | n3) &amp; (~w3 | ~n3) &amp; (~w3 | n1 | n2)
+</pre>
 
 <script type='text/javascript' src="minisat.js"></script>
-
 <script type='text/javascript' src="logic_5.js"></script>
 
 </body>
