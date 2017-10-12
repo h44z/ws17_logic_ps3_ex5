@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h3>CNF INPUT:</h3>
+<form action="#" onsubmit="event.preventDefault();">
+  <textarea id="expinput" name="expinput" rows="20" cols="110">
+(v1 | v2 | v3) &amp; (~v1 | ~v2) &amp; (~v2 | ~v3) &amp; (~v1 | ~v3) &amp;
+(t1 | t2 | t3) &amp; (~t1 | ~t2) &amp; (~t2 | ~t3) &amp; (~t1 | ~t3) &amp;
+(s1 | s2 | s3) &amp; (~s1 | ~s2) &amp; (~s2 | ~s3) &amp; (~s1 | ~s3) &amp;
+(k1 | k2 | k3) &amp; (~k1 | ~k2) &amp; (~k2 | ~k3) &amp; (~k1 | ~k3) &amp;
+(o1 | o2 | o3) &amp; (~o1 | ~o2) &amp; (~o2 | ~o3) &amp; (~o1 | ~o3) &amp;
+(m1 | m2 | m3) &amp; (~m1 | ~m2) &amp; (~m2 | ~m3) &amp; (~m1 | ~m3) &amp;
+(n1 | n2 | n3) &amp; (~n1 | ~n2) &amp; (~n2 | ~n3) &amp; (~n1 | ~n3) &amp;
+(w1 | w2 | w3) &amp; (~w1 | ~w2) &amp; (~w2 | ~w3) &amp; (~w1 | ~w3) &amp;
+(b1 | b2 | b3) &amp; (~b1 | ~b2) &amp; (~b2 | ~b3) &amp; (~b1 | ~b3) &amp;
+(~v1 | t1) &amp; (~v2 | t2) &amp; (~v3 | t3) &amp;
+(~t1 | v1 | s1 | k1) &amp; (t1 | ~v1 | s1 | k1) &amp; (t1 | v1 | ~s1 | k1) &amp; (t1 | v1 | s1 | ~k1) &amp;
+(~t2 | v2 | s2 | k2) &amp; (t2 | ~v2 | s2 | k2) &amp; (t2 | v2 | ~s2 | k2) &amp; (t2 | v2 | s2 | ~k2) &amp;
+(~t3 | v3 | s3 | k3) &amp; (t3 | ~v3 | s3 | k3) &amp; (t3 | v3 | ~s3 | k3) &amp; (t3 | v3 | s3 | ~k3) &amp;
+(~s1 | t1 | k1 | m1 | o1) &amp; (s1 | ~t1 | k1 | m1 | o1) &amp; (s1 | t1 | ~k1 | m1 | o1) &amp; (s1 | t1 | k1 | ~m1 | o1) &amp; (s1 | t1 | k1 | m1 | ~o1) &amp;
+(~s2 | t2 | k2 | m2 | o2) &amp; (s2 | ~t2 | k2 | m2 | o2) &amp; (s2 | t2 | ~k2 | m2 | o2) &amp; (s2 | t2 | k2 | ~m2 | o2) &amp; (s2 | t2 | k2 | m2 | ~o2) &amp;
+(~s3 | t3 | k3 | m3 | o3) &amp; (s3 | ~t3 | k3 | m3 | o3) &amp; (s3 | t3 | ~k3 | m3 | o3) &amp; (s3 | t3 | k3 | ~m3 | o3) &amp; (s3 | t3 | k3 | m3 | ~o3) &amp;
+(~k1 | t1 | s1 | m1) &amp; (k1 | ~t1 | s1 | m1) &amp; (k1 | t1 | ~s1 | m1) &amp; (k1 | t1 | s1 | ~m1) &amp;
+(~k2 | t2 | s2 | m2) &amp; (k2 | ~t2 | s2 | m2) &amp; (k2 | t2 | ~s2 | m2) &amp; (k2 | t2 | s2 | ~m2) &amp;
+(~k3 | t3 | s3 | m3) &amp; (k3 | ~t3 | s3 | m3) &amp; (k3 | t3 | ~s3 | m3) &amp; (k3 | t3 | s3 | ~m3) &amp;
+(~o1 | s1 | m1 | n1) &amp; (o1 | ~s1 | m1 | n1) &amp; (o1 | s1 | ~m1 | n1) &amp; (o1 | s1 | m1 | ~n1) &amp;
+(~o2 | s2 | m2 | n2) &amp; (o2 | ~s2 | m2 | n2) &amp; (o2 | s2 | ~m2 | n2) &amp; (o2 | s2 | m2 | ~n2) &amp;
+(~o3 | s3 | m3 | n3) &amp; (o3 | ~s3 | m3 | n3) &amp; (o3 | s3 | ~m3 | n3) &amp; (o3 | s3 | m3 | ~n3) &amp;
+(~m1 | k1 | s1 | o1 | n1 | b1) &amp; (m1 | ~k1 | s1 | o1 | n1 | b1) &amp; (m1 | k1 | ~s1 | o1 | n1 | b1) &amp; (m1 | k1 | s1 | ~o1 | n1 | b1) &amp; (m1 | k1 | s1 | o1 | ~n1 | b1) &amp; (m1 | k1 | s1 | o1 | n1 | ~b1) &amp;
+(~m2 | k2 | s2 | o2 | n2 | b2) &amp; (m2 | ~k2 | s2 | o2 | n2 | b2) &amp; (m2 | k2 | ~s2 | o2 | n2 | b2) &amp; (m2 | k2 | s2 | ~o2 | n2 | b2) &amp; (m2 | k2 | s2 | o2 | ~n2 | b2) &amp; (m2 | k2 | s2 | o2 | n2 | ~b2) &amp;
+(~m3 | k3 | s3 | o3 | n3 | b3) &amp; (m3 | ~k3 | s3 | o3 | n3 | b3) &amp; (m3 | k3 | ~s3 | o3 | n3 | b3) &amp; (m3 | k3 | s3 | ~o3 | n3 | b3) &amp; (m3 | k3 | s3 | o3 | ~n3 | b3) &amp; (m3 | k3 | s3 | o3 | n3 | ~b3) &amp;
+(~n1 | o1 | m1 | b1 | w1) &amp; (n1 | ~o1 | m1 | b1 | w1) &amp; (n1 | o1 | ~m1 | b1 | w1) &amp; (n1 | o1 | m1 | ~b1 | w1) &amp; (n1 | o1 | m1 | b1 | ~w1) &amp;
+(~n2 | o2 | m2 | b2 | w2) &amp; (n2 | ~o2 | m2 | b2 | w2) &amp; (n2 | o2 | ~m2 | b2 | w2) &amp; (n2 | o2 | m2 | ~b2 | w2) &amp; (n2 | o2 | m2 | b2 | ~w2) &amp;
+(~n3 | o3 | m3 | b3 | w3) &amp; (n3 | ~o3 | m3 | b3 | w3) &amp; (n3 | o3 | ~m3 | b3 | w3) &amp; (n3 | o3 | m3 | ~b3 | w3) &amp; (n3 | o3 | m3 | b3 | ~w3) &amp;
+(~b1 | m1 | n1) | (b1 | ~m1 | n1) | (b1 | m1 | ~n1) &amp;
+(~b2 | m2 | n2) | (b2 | ~m2 | n2) | (b2 | m2 | ~n2) &amp; 
+(~b3 | m3 | n3) | (b3 | ~m3 | n3) | (b3 | m3 | ~n3) &amp;
+(~w1 | n1) &amp; (w1 | ~n1) &amp;
+(~w2 | n2) &amp; (w2 | ~n2) &amp;
+(~w3 | n3) &amp; (w3 | ~n3)
+  </textarea>
+  <br>
+  <input id="gobtn" type="submit" value="check">
+  <label>Syntax: &nbsp;&nbsp;&nbsp;&nbsp;AND: <strong>&amp;</strong> , &nbsp;&nbsp;&nbsp;&nbsp;OR: <strong>|</strong> , &nbsp;&nbsp;&nbsp;&nbsp;NOT: <strong>~</strong> , &nbsp;&nbsp;&nbsp;&nbsp;all clauses must have round brackets! e.g.: (p | q) &amp; (~p) &amp; (q)</label>
+</form>
+
+<h3>DIMACS:</h3>
+<textarea id="dimacsout" name="dimacsout" rows="20" cols="110" readonly="readonly"></textarea>
+
+<h3>SAT OUTPUT:</h3>
+<textarea id="satout" name="satout" rows="20" cols="110" readonly="readonly"></textarea>
+
+<h3>MAP:</h3>
+<object class="svgImage" type="image/svg+xml" data="Austria_States_blank_map.svg" width="600"></object>
+
+<div id="output"></div>
+
+<script type='text/javascript' src="minisat.js"></script>
+
+<script type='text/javascript' src="logic_5.js"></script>
+
+</body>
+</html>
